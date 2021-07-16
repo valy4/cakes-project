@@ -51,13 +51,13 @@ const Contact = styled.div`
 `;
 const Mail = styled.p`
   color: #f79489;
-font-size: 1rem;
+font-size: 1.2rem;
    text-decoration: none;
    margin-right: 1rem;
 `
 const Tel = styled.p`
   color: #f79489;
-font-size: 1rem;
+font-size: 1.2rem;
    text-decoration: none;
    margin-right: 6rem;
 `

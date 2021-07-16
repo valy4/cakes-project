@@ -4,6 +4,7 @@ import Header from './components/Header';
 import MainContent from './components/MainContent';
 import Footer from "./components/Footer"
 import Home from "./components/Home"
+import GetInTouch from "./components/GetInTouch"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Home />
       <MainContent />
+      <GetInTouch />
       <Footer />
     </div>
   );
