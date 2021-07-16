@@ -9,11 +9,15 @@ import prajiCapsuni from ".././assets/images/prajitura-cu-capsuni.jpg";
 import prajiCiocoNuci from "../assets/images/prajitura-cu-ciocolata-si-nuci.jpg";
 import tortCremaAfine from "../assets/images/tort-cu-crema-de-afine.jpg";
 import tortDeco from "../assets/images/happy-birthday-deco.jpg";
-import styled from "styled-components";
+import tortCioco from "../assets/images/tort-cu-crema-de-ciocolata.jpg"
+import tortMascarpone from "../assets/images/tort-cu-crema-de-ciocolata-si-mascarpone.jpg"
+import tortFructe from "../assets/images/tort-cu-fructe-si-ciocolata.jpg"
+import tortCars from "../assets/images/tort-happy-birthday-cars-deco.jpg"
+
 
 function MainContent() {
   return (
-    <Box>
+    <div className="box">
       <CakeCard name="Tort Maria" image={tortMaria} price="50£" />
       <CakeCard
         name="Bomboane-asortate-cu-visine"
@@ -51,11 +55,29 @@ function MainContent() {
         image={tortDeco}
         price="50£"
       />
-    </Box>
+      <CakeCard
+        name="Bomboane-asortate-cu-visine"
+        image={tortMascarpone}
+        price="50£"
+      />
+      <CakeCard
+        name="Bomboane-asortate-cu-visine"
+        image={tortCioco}
+        price="50£"
+      />
+      <CakeCard
+        name="Bomboane-asortate-cu-visine"
+        image={tortFructe}
+        price="50£"
+      />
+      <CakeCard
+        name="Bomboane-asortate-cu-visine"
+        image={tortCars}
+        price="50£"
+      />
+
+    </div>
   );
 }
 export default MainContent;
-const Box = styled.div`
-display: flex;
-justify-content:center;
-`
+
