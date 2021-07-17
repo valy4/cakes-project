@@ -32,6 +32,7 @@ const TagsHome = styled.a`
   margin-left:6rem;
   cursor: pointer;
    text-decoration: none;
+   &:hover {color:#C85250}
 
 `;
 const TagsTorturi = styled.a`
@@ -39,11 +40,13 @@ const TagsTorturi = styled.a`
   margin-right:1rem;
   cursor: pointer;
    text-decoration: none;
+   &:hover {color:#C85250}
 `;
 const TagsPraji = styled.a`
   color: #f79489;
   cursor: pointer;
    text-decoration: none;
+   &:hover {color:#C85250}
 `;
 const Contact = styled.div`
  display: flex;

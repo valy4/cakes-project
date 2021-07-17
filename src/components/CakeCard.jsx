@@ -22,6 +22,7 @@ justify-content: center;
 align-items: center;
 width:300px;
 margin: 1.5rem;
+color: #C85250;;
 
 `
 
@@ -31,10 +32,13 @@ height: 250px;
 width: 250px;
 border-radius:10%;
 pointer-events:auto;
-transition: transform .5s ease;
-overflow: hidden;
-&:hover {transform:scale(1.1)}`
+/* transition: transform .5s ease;
+overflow: hidden; */
+transform-origin: 65% 75% ;
+transition: transform 1s, filter .5s ease-out;
+&:hover {transform:scale(1.2)}`
 
 const Price = styled.p`
 margin: 0;
+font-size: 1.5rem;
 `
