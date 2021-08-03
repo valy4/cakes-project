@@ -36,9 +36,11 @@ const Contact = styled.div`
       font-size: 1.2rem;
       @media only screen and (max-width: 480px){
         margin-top: 0rem;
+        margin-left: 1rem;
       }
        @media only screen and (max-width: 768px) and (min-width: 481px){
          font-size: 1.5rem;
+         margin-left: 1rem;
        }
 
 
@@ -49,13 +51,13 @@ width: 40vw;
 border-radius:1%;
 @media only screen and (max-width: 480px){
 height: 60vh;
-width: 40vw;
+width: 45vw;
 border-radius: 2%;
 };
  @media only screen and (max-width: 768px) and (min-width: 481px){
 
 height: 60vh;
-width: 40vw;
+width: 45vw;
 border-radius: 2%;
 };
 `
@@ -84,9 +86,11 @@ align-items: center;
 
 @media only screen and (max-width: 480px){
 padding-right: 0.8rem;
+margin-left: 1rem;
 }
 @media only screen and (max-width: 768px) and (min-width: 481px){
   padding-right: 0.8rem;
+  margin-left: 1rem;
 }
 `
 const Paragraf = styled.p`
