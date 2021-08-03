@@ -20,9 +20,9 @@ function GetInTouch() {
           <p><b>07440172711</b></p>
         </Lines>
       </Text>
-      <div>
+      <Picture>
         <Image src={tortMinioni}></Image>
-      </div>
+      </Picture>
     </Contact>
   );
 }
@@ -47,10 +47,31 @@ height: 95vh;
 width: 50vw;
 border-radius:1%;
 @media only screen and (max-width: 480px){
+height: 60vh;
+width: 40vw;
+border-radius: 2%;
+};
+ @media only screen and (max-width: 768px) and (min-width: 481px){
+
+height: 60vh;
+width: 40vw;
+border-radius: 2%;
+};
+`
+const Picture = styled.div`
+@media only screen and (max-width: 480px){
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 2rem;
 
 }
-
-
+@media only screen and (max-width: 768px) and (min-width: 481px){
+  display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 2rem;
+}
 `
 const Text = styled.div`
 display: flex;

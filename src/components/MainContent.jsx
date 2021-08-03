@@ -41,7 +41,7 @@ function MainContent() {
         image={tortName}
         price="from 15£/kg"
       />
-      <CakeCard name="Briose cu smantana" image={muffin} price="from 15£/kg" />
+      <CakeCard name="Briose cu smantana" image={muffin} price="5£/12buc" />
       <CakeCard
         name="Prajitura cu capsuni"
         image={prajiCapsuni}
