@@ -17,7 +17,7 @@ function GetInTouch() {
         <Lines>
           <p>Harlow</p>
           <p>lory_dany80@yahoo.com</p>
-          <p><b>07405796972</b></p>
+          <p><b>07440172711</b></p>
         </Lines>
       </Text>
       <div>

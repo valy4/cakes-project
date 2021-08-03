@@ -13,6 +13,9 @@ import tortCioco from "../assets/images/tort-cu-crema-de-ciocolata.jpg";
 import tortMascarpone from "../assets/images/tort-cu-crema-de-ciocolata-si-mascarpone.jpg";
 import tortFructe from "../assets/images/tort-cu-fructe-si-ciocolata.jpg";
 import tortCars from "../assets/images/tort-happy-birthday-cars-deco.jpg";
+import tortMultiCream from "../assets/images/tort cu crema asortat.jpg";
+import tortMultiCreams from "../assets/images/tort cu creme asortate.jpg";
+import tortMinioni from "../assets/images/tort-minions-deco.jpg"
 
 function MainContent() {
   return (
@@ -23,10 +26,27 @@ function MainContent() {
         image={bomboane}
         price="from 15£/kg"
       />
-      <CakeCard name="Tort Mickey Mouse" image={mickeyMouse} price="from 15£/kg" />
-      <CakeCard name="Tort decorat cu mesaj" image={tortName} price="from 15£/kg" />
+      <CakeCard
+        name="Tort Mickey Mouse"
+        image={mickeyMouse}
+        price="from 15£/kg"
+      />
+      <CakeCard
+        name="Tort Minioni"
+        image={tortMinioni}
+        price="from 15£/kg"
+      />
+      <CakeCard
+        name="Tort decorat cu mesaj"
+        image={tortName}
+        price="from 15£/kg"
+      />
       <CakeCard name="Briose cu smantana" image={muffin} price="from 15£/kg" />
-      <CakeCard name="Prajitura cu capsuni" image={prajiCapsuni} price="from 15£/kg" />
+      <CakeCard
+        name="Prajitura cu capsuni"
+        image={prajiCapsuni}
+        price="from 15£/kg"
+      />
       <CakeCard
         name="Prajitura ciocolata si nuci"
         image={prajiCiocoNuci}
@@ -37,7 +57,17 @@ function MainContent() {
         image={tortCremaAfine}
         price="from 15£/kg"
       />
-      <CakeCard name="Tort decorat fotbal" image={tortDeco} price="from 15£/kg" />
+
+      <CakeCard
+        name="Tort multiple creme"
+        image={tortMultiCreams}
+        price="from 15£/kg"
+      />
+      <CakeCard
+        name="Tort decorat fotbal"
+        image={tortDeco}
+        price="from 15£/kg"
+      />
       <CakeCard
         name="Tort ciocolata si mascarpone"
         image={tortMascarpone}
@@ -53,7 +83,18 @@ function MainContent() {
         image={tortFructe}
         price="from 15£/kg"
       />
-      <CakeCard name="Tort decorat cu masini" image={tortCars} price="from 15£/kg" />
+      <CakeCard
+        name="Tort decorat cu masini"
+        image={tortCars}
+        price="from 15£/kg"
+      />
+      <CakeCard
+        name="Tort cu diferite creme"
+        image={tortMultiCream}
+        price="from 15£/kg"
+      />
+
+
     </div>
   );
 }
