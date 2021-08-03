@@ -30,7 +30,8 @@ export default GetInTouch
 
 const Contact = styled.div`
       display: flex;
-      margin: 2rem;
+      justify-content: space-between;
+      margin: 4rem;
       color: #C85250;
       font-size: 1.2rem;
       @media only screen and (max-width: 480px){
@@ -44,7 +45,7 @@ const Contact = styled.div`
       `
 const Image = styled.img`
 height: 95vh;
-width: 50vw;
+width: 40vw;
 border-radius:1%;
 @media only screen and (max-width: 480px){
 height: 60vh;
@@ -76,25 +77,34 @@ margin-top: 2rem;
 const Text = styled.div`
 display: flex;
 flex-direction: column;
-width: 50vw;
+width: 40vw;
 justify-content: center;
 align-items: center;
-padding-right: 2rem;
+
+
 @media only screen and (max-width: 480px){
 padding-right: 0.8rem;
-
+}
+@media only screen and (max-width: 768px) and (min-width: 481px){
+  padding-right: 0.8rem;
 }
 `
 const Paragraf = styled.p`
-text-align: start;
-@media only screen and (max-width: 480px){
 text-align: center;
+@media only screen and (max-width: 480px){
+text-align: start;
+}
+@media only screen and (max-width: 768px) and (min-width: 481px){
+ text-align: start;
 }
 `
 const SecPAragraf = styled.p`
+text-align: center;
 @media only screen and (max-width: 480px){
-  text-align: center;
+  text-align: start;
 }
+@media only screen and (max-width: 768px) and (min-width: 481px){
+  text-align: start;
 `
 const Lines = styled.div`
 text-align: center;
